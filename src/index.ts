@@ -56,7 +56,7 @@ const createUI = (
     "#reload-button"
   ) as HTMLButtonElement;
   reloadButton.addEventListener("click", () => {
-    index++;
+    index = (index + 1) % questions.length;
     displayQuestion(questions[index]);
   });
 };
