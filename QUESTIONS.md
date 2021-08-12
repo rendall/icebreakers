@@ -1,3 +1,5 @@
+# Questions
+
 * Credit: [Outbackteambuilding.com](https://www.outbackteambuilding.com/blog/team-building-questions-icebreakers/)
   * Do you love working from home or in the office? Is there a balance of both that you like best?
   * Where do you work most frequently from at home? Your office? Your kitchen table? The backyard? Your bed?

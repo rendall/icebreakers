@@ -1,7 +1,20 @@
 {
+  "version": "1.0.0",
+  "description": "Icebreakers",
+  "name": "icebreakers",
+  "scripts": {
+    "prebuild": "rimraf index.html && rimraf main.js && markdownlint *.md",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
   "devDependencies": {
     "@webpack-cli/generators": "^2.2.0",
     "html-webpack-plugin": "^5.3.2",
+    "markdownlint": "^0.23.1",
+    "markdownlint-cli": "^0.28.1",
     "prettier": "^2.3.2",
     "rimraf": "^2.7.1",
     "sass": "^1.35.1",
@@ -11,16 +24,5 @@
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
-  },
-  "version": "1.0.0",
-  "description": "My webpack project",
-  "name": "my-webpack-project",
-  "scripts": {
-    "prebuild": "rimraf index.html && rimraf main.js",
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch",
-    "serve": "webpack serve"
   }
 }
