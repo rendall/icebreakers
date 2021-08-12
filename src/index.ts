@@ -9,7 +9,7 @@ const parseCredit = (line: string) => {
 };
 
 const loadQuestion = () =>
-  fetch("/QUESTIONS.md").then((response) => response.text());
+  fetch("./QUESTIONS.md").then((response) => response.text());
 
 const parseQuestions = (questionsFile: string): Question[] => {
   const lines = questionsFile
