@@ -8,16 +8,16 @@
   * What does your morning routine look like when working from home?
   * How many cups of coffee, tea, or beverage-of-choice do you have each morning?
   * Do you have houseplants in your office?
-  * any pets as in-house colleagues?
-  * Do you have What’s your go-to remote work outfit?
+  * Do you have any pets as in-house colleagues?
+  * What’s your go-to remote work outfit?
   * What is something you’ve always wanted to do but haven’t done yet?
-  * animal represents you?
+  * What animal represents you?
   * What was your dream profession growing up?
   * What Do you have any family traditions that you look forward to each year?
   * Would you like to be famous? In what way?
   * Who in your life has inspired you most?
-  * at’s your dream car?
-  * WhIf you weren’t in this career, what could you see yourself doing?
+  * What’s your dream car?
+  * If you weren’t in this career, what could you see yourself doing?
   * What is one thing on the very top of your bucket list?
   * If you’re not from this city, why did you end up here?
   * What is your guilty pleasure?
@@ -367,7 +367,6 @@
   * What fictional family would you be a member of?
   * What is your favorite television network?
   * What sport would you compete in if you were in the Olympics?
-  * Who is the better businessman or business woman and why? (Example: Justin Timberlake or Justin Bieber?)
   * What was the worst job you ever had?
   * You can have anyone fictional as your imaginary friend, who do you choose and why?
   * What would your superpower be and why?
@@ -475,7 +474,7 @@
   * What movie do you think everyone should watch?
   * What is the last TV show that you binge-watched?
   * What is one thing we would never guess about you?
-  * Name an imaginary college class you wish you had taken
+  * Name an imaginary college class you wish you had taken.
   * What current fact about your life would most impress your five year old self?
   * Besides graduating, what is your number one goal for your remaining time at college?
   * Describe the best teacher you have had so far.
@@ -575,7 +574,6 @@
   * Which movie made you laugh the most?
   * Have you ever been to a comedy show?
   * What is the best romantic comedy?
-  * Is Hugh Grant funny?
   * What is the most obscure superpower you would want?
   * Which superpower would you give to your arch enemy?
   * How would you rate your laugh out of 10?
@@ -677,7 +675,7 @@
   * Are you a back seat driver?
   * Describe your dream holiday if money was no limit?
   * Where do you want to retire?
-  * Complete the sentence “I wish everyone could…”
+  * Complete the sentence "I wish everyone could..."
   * Describe your dream wedding if money was no object?
   * What would you do if you knew you could not fail?
   * What is your goal by the end of the decade?
@@ -725,7 +723,7 @@
   * Do you prefer sweet or savoury?
   * Do you prefer to dress smart or casual?
   * Do you prefer cardio or weight lifting?
-  * Would you rather be able to run at 100 miles per hour or fly at 10 miles per hour
+  * Would you rather be able to run at 100 miles per hour or fly at 10 miles per hour?
   * Would you rather be an olympic gold medalist or an astronaut?
   * Would you rather fart or burp glitter?
   * Would you rather travel back in time to meet your ancestors or would you rather go to the future to meet your descendants?
@@ -761,13 +759,13 @@
   * Who would you want on your team in a zombie apocalypse?
   * What's your favorite family tradition?
   * Who was your childhood actor or actress crush?
-  * Describe your dream house
+  * Describe your dream house.
   * Are you a dog person or a cat person?
   * What's your favourite ride at a theme park?
   * What year would you visit if you had a time machine?
   * What's your current cellphone wallpaper?
   * What's your go-to dance move?
-  * Name one thing still on your bucket list
+  * Name one thing still on your bucket list.
   * What's your favorite breakfast cereal or breakfast food?
   * What would your entrance theme song be?
   * Have you ever been bungee jumping?
@@ -780,7 +778,7 @@
   * What’s the weirdest thing in your fridge right now?
   * What was your favorite recent meal, and why?
   * If you could have one superpower today, what would it be, and for what purpose?
-  * Show us something in your space that you really like
+  * Show us something in your space that you really like.
   * What’s got your attention today, and why?
   * What was your favorite recent book or article, and what did it inspire?
   * Heard any good tips lately?
@@ -1256,7 +1254,7 @@
   * What two things do you consider yourself to be very bad at?
   * If money and time were no object, what would you be doing right now?
   * What is something you hate doing? Why?
-  * What is something you love doing? Why
+  * What is something you love doing? Why?
   * Do you have any hidden talents? What can you do?
   * What was one new experience you tried that was completely unknown or uncomfortable to you at the time you tried it?
   * Have you ever been out of the country?
@@ -1776,7 +1774,6 @@
 * Credit: [SnackNation](https://snacknation.com/blog/icebreaker-questions/)
   * How’d you do on the office trivia contest last week?
   * What would be the perfect caption for this meme/cartoon/awkward photo?
-  * What movie made you laugh the hardest? (Try to tell us through charades.)
   * What is the craziest request you’ve ever gotten in your career? (You can keep it anonymous to get the juiciest answers.)
   * Who is this supposed to be?
   * What does [insert coworker]’s laugh sound like to you? (Tell us by imitating it.)
@@ -1799,13 +1796,13 @@
   * What would your superhero costume look like?
   * If you had to choose one car to drive forever, what would you pick?
   * If you could keep only one appliance in your house, which one would you choose and why?
-  * What was the strangest non-scary dream you ever had? 
+  * What was the strangest non-scary dream you ever had?
   * How much money would you give me right now if I asked?
   * Break up with yourself. How do you let yourself down easy?
   * What excuse do you use all the time?
   * What’s something your mom or dad does that you always find yourself doing?
   * Which character from a kids’ book or movie reminds you of yourself?
-  * If you had to pick a new part of your body to sit on, what would you choose? 
+  * If you had to pick a new part of your body to sit on, what would you choose?
   * What does an elephant sound like? (We call this the “elephant in the room.”)
   * How would you say your name if you were an alien?
   * If you were a condiment, what would you be, and why?
@@ -2055,7 +2052,6 @@
   * When you describe yourself to others, what words do you use?
   * What's your favorite way to get exercise?
   * What's your favorite way to decompress from a long day at work?
-  * best unique ice breaker questions
   * If you had to build a trivia question about yourself, what would it be?
   * In a group setting, would you describe yourself as an introvert or as an extrovert?
   * What sibling are you? Youngest? Oldest? Middle child? Or an only child?
@@ -2198,7 +2194,6 @@
   * What is your favorite love quote or poem?
   * Tell me your most favorite trait in a partner.
   * What characteristic would you like our children to have?
-  * best ice breaker questions for college students
   * What are your plans after you finish college?
   * Do you have an internship secured?
   * How do you plan to prepare for your first internship interview?
@@ -2490,7 +2485,7 @@
   * What music would you perform if you were asked to engage in a flash dance, and why?
   * What would your company’s mascot be if it had one?
   * What would you carry with you if you were sent to live on a space station for three months and were only allowed to bring three personal items?
-  * Are you currently reading anything interesting right now? 
+  * Are you currently reading anything interesting right now?
   * Who is the most well-known person who contributes the most to the world?
   * What is one thing you couldn’t live without?
   * What would you be doing right now if money and time were no object?
@@ -2546,7 +2541,7 @@
   * Where is the weirdest place you've worked from home?
   * What are you wearing on your feet right now?
   * What's your favorite part about your home office space?
-  * Have you ever worked from bed? 
+  * Have you ever worked from bed?
   * What's your best tip for keeping productive at work?
   * Do you like to keep background noise on or do you work in silence?
   * What do you miss about working in an office?
@@ -2555,8 +2550,8 @@
   * What's your favorite YouTube channel?
   * If you could learn one skill today, what would it be?
   * What's your favorite television show or movie about the workplace?
-  * If you could have any view from your work from home desk, what would it be? 
-  * Do you have a picture on your desktop? What is it? 
+  * If you could have any view from your work from home desk, what would it be?
+  * Do you have a picture on your desktop? What is it?
   * How many states (or provinces or countries) have you been to?
   * What was the name of your first pet?
   * What’s the longest flight you’ve ever taken?
@@ -2576,7 +2571,7 @@
   * What was the last concert you went to?
   * Where is the strangest place you’ve ever fallen asleep?
   * Do you have any strange or regional names for things where you come from?
-  * If you had to create a slogan for your life, what would it be? 
+  * If you had to create a slogan for your life, what would it be?
   * What was your childhood nickname?
   * What is the last show you binge-watched?
   * What’s something that everyone else seems to love—that you don’t understand?
@@ -2599,7 +2594,7 @@
   * What quality about yourself would you like to pass on to your child?
   * If you could invite three people to dinner—living, dead, fictional, or real—who would they be?
   * If you had a paid year off work, how would you spend it?
-  * What does your perfect ice cream sundae look like? 
+  * What does your perfect ice cream sundae look like?
   * If you could read one book over and over for the rest of your life, what would it be?
   * If you could eat one food for the rest of your life, what would it be?
   * Would you rather be able to fly or be invisible?
@@ -2671,7 +2666,7 @@
   * If they made a movie of your life, what would it be about and which actor would you want to play you?
   * If you were an ice cream flavor, which one would you be and why?
   * What’s your favorite cartoon character, and why?
-  * If you could visit any place in the world, where would you choose to go and why
+  * If you could visit any place in the world, where would you choose to go and why?
   * What’s the ideal dream job for you?
   * Are you a morning or night person?
   * What are your favorite hobbies?
@@ -2697,7 +2692,7 @@
   * Tell us about the last time you got angry with a co-worker. What was the cause?
   * Where do you want to see yourself in 10 years?
   * In one word, what is the greatest challenge you have faced this month?
-  * Who would you be in a parallel universe?Lifestyle
+  * Who would you be in a parallel universe?
   * In three words, how would your family and friends describe you?
   * What's your most favorite place to travel to, and why?
   * What's your life's biggest dream?
@@ -2737,7 +2732,7 @@
   * What's your weirdest dream ever?
   * What are you doing next weekend?
   * Are you a planner or spontaneous?
-  * Has anyone saved your life before? Have you ever saved someone else's?What if…
+  * Has anyone saved your life before? Have you ever saved someone else's?
   * What strange room/feature would you build in to your dream house?
   * How would you spend your money if you won the lottery?
   * If you had to be stuck at a particular age, what would that age be? Why?
@@ -2749,8 +2744,8 @@
   * What would you be found doing if the police unexpectedly breaks into your home in the day?
   * If you could travel to anywhere in the galaxy (outside the earth), where would you go, and why?
   * If you could see in the future, which period would you choose, and why?
-  * If you could only meet one person from history, who would it be?.
-  * If you had one opportunity to run a restaurant, what would you serve?Hobbies
+  * If you could only meet one person from history, who would it be?
+  * If you had one opportunity to run a restaurant, what would you serve?
   * What's your favorite music band a decade ago? What of now?
   * Have you ever met someone famous in person?
   * If you can choose a famous person to hang out with, who would it be?
@@ -2772,7 +2767,7 @@
   * Tell us a book or movie or video you've read or seen lately and which you would recommend? Why?
   * What was the worst travel experience of your life?
   * Do you play any musical instrument, and which?
-  * Do you watch Netflix shows? What's your best?Childhood
+  * Do you watch Netflix shows? What's your best?
   * What is your most memorable childhood story?
   * What was your best cartoon as a child?
   * Tell us what's your hero as a child. Why was he/she your hero?
@@ -2787,7 +2782,6 @@
   * What was your favorite book as a kid?
   * What was your favorite film you watched as a child?
   * Have you ever been to summer camp growing up?
-  * Christmas
   * Tell us the very first thing you usually do on Christmas Day?
   * Where do you normally shop for Christmas?
   * What's your family's Christmas tradition?
@@ -2804,7 +2798,7 @@
   * Tell us the Christmas film you always watch every year!
   * What music do you normally relate to Christmas?
   * What outdoor activity do you love doing on Christmas day?
-  * Do you like receiving or giving gifts more?Halloween
+  * Do you like receiving or giving gifts more?
   * What is the favorite Halloween costume you have ever seen?
   * What is the most awesome Halloween costume you've ever made?
   * What's your best fantasy story? Character in a book? Movie? Legend?
