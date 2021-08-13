@@ -4,29 +4,78 @@
 <head>
   <meta charset="utf-8" />
   <title>Icebreakers</title>
+  <!--
+      --baby-pink: #fcc5bdff;
+      --chestnut: #854b32ff;
+      --black-chocolate: #242219ff;
+      --rust: #a84318ff;
+      --spanish-gray: #a69692ff;
+   -->
+
+
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
     body {
-      background: #99e1d9;
-      color: #160c28;
+      background: #FCC5BD;
+      color: #854B32;
       display: flex;
       flex-direction: column;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     h2#question-display {
       font-size: 4rem;
-      margin: 7rem auto;
+      margin: auto;
+      margin-top: calc(50vh - 12rem);
       min-height: 10rem;
       text-align: center;
       width: 80%;
+      font-family: 'Rammetto One', cursive;
     }
 
     button#reload-button {
+      background-color: #FCC5BD;
+      border-radius: 1rem;
+      border: 1px solid #242219;
+      bottom: 1rem;
+      color: #242219;
       cursor: pointer;
       font-family: arial;
       font-size: 1.3rem;
+      margin-left: calc(50% - 5rem);
       padding: 2rem;
+      position: fixed;
+      transition: background-color 0.1s ease;
       width: 10rem;
-      margin: auto;
+    }
+
+    button#reload-button:hover {
+      background-color: #242219;
+      color: #FCC5BD;
+    }
+
+    ul {
+      position: fixed;
+      bottom: 1rem;
+      list-style-type: none;
+    }
+
+    li {
+      margin-top: 1rem;
+    }
+
+    a {
+      color: #242219;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: #854B32
     }
   </style>
 </head>
@@ -34,13 +83,15 @@
 <body>
   <h2 id="question-display">What would your superpower be and why?</h2>
   <button id="reload-button">Pick another question</button>
-  <p>
-    Credit:
-    <a id="credit-link" href="https://museumhack.com/list-icebreakers-questions/">Museum Hack</a>
-  </p>
-  <p>
-    <a href="https://github.com/rendall/icebreakers#readme">It's open source!</a>
-  </p>
+  <ul>
+    <li>
+      Credit:
+      <a id="credit-link" href="https://museumhack.com/list-icebreakers-questions/">Museum Hack</a>
+    </li>
+    <li>
+      <a href="https://github.com/rendall/icebreakers#readme">Icebreakers is open source!</a>
+    </li>
+  </ul>
 </body>
 
 </html>
