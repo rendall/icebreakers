@@ -7,7 +7,7 @@ Try it out: <https://rendall.github.io/icebreakers/>
 
 ## FAQ:
 
-To all of the questions below, the easiest answer may be to [file an issue](https://github.com/rendall/icebreakers/issues/new).
+To each of the questions below, the easiest answer may be to [file an issue](https://github.com/rendall/icebreakers/issues/new).
 
 ### These questions are terrible!
 
