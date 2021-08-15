@@ -4,10 +4,11 @@ Welcome to Icebreakers, a collection of icebreaking questions from around the we
 
 Try it out: <https://rendall.github.io/icebreakers/>
 
-
 ## FAQ:
 
-To each of the questions below, the easiest answer may be to [file an issue](https://github.com/rendall/icebreakers/issues/new).
+### What is this?
+
+These questions are conversation starters you can ask to get to know someone, or know your team.
 
 ### These questions are terrible!
 
@@ -26,14 +27,15 @@ The questions are all listed in the [QUESTIONS.md](./QUESTIONS.md) file. Add you
   * Underneath the Credit line?
 ```
 
+Or [file an issue](https://github.com/rendall/icebreakers/issues/new).
+
 ### How do I edit or remove questions?
 
-Remove or edit the question in question in the [QUESTIONS.md](./QUESTIONS.md) file then submit a pull request.
+Remove or edit the question in question in the [QUESTIONS.md](./QUESTIONS.md) file then submit a pull request. Or [file an issue](https://github.com/rendall/icebreakers/issues/new).
 
 ### I'm the copyright owner and I want my questions removed!
 
 First, that's not a question, but understood. Second, are you sure? You're credited, and it drives traffic to your page. But if you insist, there are many ways to contact me, but the easiest is to [file an issue](https://github.com/rendall/icebreakers/issues/new) and I'll take it down. 
-
 
 ## Development
 
