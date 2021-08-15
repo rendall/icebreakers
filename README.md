@@ -8,7 +8,7 @@ Try it out: <https://rendall.github.io/icebreakers/>
 
 ### What is this?
 
-These questions are conversation starters you can ask to get to know someone, or know your team.
+Icebreaker questions are conversation starters you can ask to get to know someone, or to know your team. Load the site and it will present one of the thousands of questions in the list. Push the _Pick another question_ button to pick another question. If you want to go back to a previous question, push your browser's back button.
 
 ### These questions are terrible!
 
