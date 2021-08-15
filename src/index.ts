@@ -61,9 +61,15 @@ const createUI = (
     "#reload-button"
   ) as HTMLButtonElement;
   reloadButton.addEventListener("click", () => {
+    history.pushState(index, questions[index].question);
     index = (index + 1) % questions.length;
     displayQuestion(questions[index]);
   });
+
+  window.onpopstate = () => {
+    const i = window.history.state;
+    displayQuestion(questions[i]);
+  }
 };
 
 const onLoad = () =>
