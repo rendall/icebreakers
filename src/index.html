@@ -16,10 +16,17 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
 
+    :root {
+      --main-bg-color: #CCC9DC;
+      --main-text-color: #324A5F;
+      --dark-color: #0C1821;
+    }
+
     body {
-      background: #FCC5BD;
-      color: #854B32;
+      background: var(--main-bg-color);
+      color: var(--main-text-color);
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.2rem;
     }
 
     h2#question-display {
@@ -36,11 +43,11 @@
     }
 
     button#reload-button {
-      background-color: #FCC5BD;
+      background-color: var(--main-bg-color);
       border-radius: 1rem;
-      border: 1px solid #242219;
+      border: 1px solid var(--dark-color);
       bottom: 2rem;
-      color: #242219;
+      color: var(--dark-color);
       cursor: pointer;
       font-family: arial;
       font-size: 1.3rem;
@@ -52,8 +59,8 @@
     }
 
     button#reload-button:hover {
-      background-color: #242219;
-      color: #FCC5BD;
+      background-color: var(--dark-color);
+      color: var(--main-bg-color);
     }
 
     ul {
@@ -67,7 +74,7 @@
     }
 
     a {
-      color: #242219;
+      color: var(--dark-color);
       text-decoration: none;
     }
 
@@ -76,7 +83,7 @@
     }
 
     a:visited {
-      color: #854B32
+      color: var(--main-text-color);
     }
   </style>
 </head>
@@ -90,7 +97,7 @@
       <a id="credit-link" href="https://museumhack.com/list-icebreakers-questions/">Museum Hack</a>
     </li>
     <li>
-      <a href="https://github.com/rendall/icebreakers#readme">Icebreakers is open source!</a>
+      <a href="https://github.com/rendall/icebreakers#readme"><em>Icebreakers</em> is open source!</a>
     </li>
   </ul>
 </body>
