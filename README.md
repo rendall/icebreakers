@@ -35,11 +35,19 @@ Remove or edit the question in question in the [QUESTIONS.md](./QUESTIONS.md) fi
 
 ### I'm the copyright owner and I want my questions removed!
 
-First, that's not a question, but understood. Second, are you sure? You're credited, and it drives traffic to your page. But if you insist, there are many ways to contact me, but the easiest is to [file an issue](https://github.com/rendall/icebreakers/issues/new) and I'll take it down. 
+First, that's not a question, but understood. Second, are you sure? You're credited, and it drives traffic to your page. But if you insist, there are many ways to contact me, but the easiest is to [file an issue](https://github.com/rendall/icebreakers/issues/new) and I'll take it down.
+
+### I'm a copyright owner. How would I go about adding my website?
+
+No problem! [Fill out this form.](https://github.com/rendall/icebreakers/issues/new)
+
+### Are you interested in monetization opportunities?
+
+Not in the slightest. But the license allows you to do that yourself without my permission. Knock yourself out! Let me know how it goes.
 
 ## Development
 
-Install git & node, then:
+Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) & [node](https://nodejs.org/en/download/), then:
 
 ```bash
 git clone https://github.com/rendall/icebreakers
