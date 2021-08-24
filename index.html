@@ -11,6 +11,22 @@
       color: var(--main-text-color);
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 1.2rem;
+      flex-direction: column;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+      align-items: center;
+    }
+
+    footer {
+      align-items: flex-end;
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
     }
 
     h2#question-display {
@@ -19,10 +35,6 @@
       margin-right: auto;
       text-align: center;
       width: 80%;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translateY(-50%) translateX(-50%);
       font-family: 'Rammetto One', cursive;
     }
 
@@ -35,11 +47,8 @@
       cursor: pointer;
       font-family: arial;
       font-size: 1.3rem;
-      margin-left: calc(50% - 10rem);
       padding: 1.2rem 2rem;
-      position: fixed;
       transition: background-color 0.1s ease;
-      width: 20rem;
     }
 
     button#reload-button:hover {
@@ -48,9 +57,14 @@
     }
 
     ul {
-      position: fixed;
-      bottom: 1rem;
       list-style-type: none;
+      margin: 0;
+      width: 24rem;
+      padding: 0;
+    }
+
+    ul:last-child {
+      text-align: right;
     }
 
     li {
@@ -68,4 +82,4 @@
 
     a:visited {
       color: var(--main-text-color);
-    }</style><script defer="defer" src="main.js"></script></head><body><h2 id="question-display">...</h2><button id="reload-button">Pick another question</button><ul><li>Credit: <a id="credit-link" href=""></a></li><li><a href="https://github.com/rendall/icebreakers#readme"><em>Icebreakers</em> is open source!</a></li></ul></body></html>
+    }</style><script defer="defer" src="main.js"></script></head><body><main><h2 id="question-display">...</h2></main><footer><ul><li><label>Credit: <a id="credit-link" href=""></a></label></li></ul><button id="reload-button">Pick another question</button><ul><li><a href="https://github.com/rendall/icebreakers#readme"><em>Icebreakers</em> is open source!</a></li><li><a href="https://rendall.github.io/icebreakers">rendall.github.io/icebreakers</a></li></ul></footer></body></html>
