@@ -1040,7 +1040,7 @@
   * Aliens have landed on Earth and have claimed one of your team members as their spy. You're the least bit surprised. Who is it?
   * If you had to break the ice during some awkward silences, which joke would you crack?
   * According to you, which reality TV show is the funniest?
-  * Namely, a peculiar family tradition that you have?
+  * Does your family have a unique or peculiar tradition?
   * In which sport would you compete (weird things are fine) that'll fetch you at least one award?
   * Which horrible fashion trend do you secretly like?
   * Particularly, name a team-building activity that you secretly hate?
@@ -1064,7 +1064,7 @@
   * Which talk show host is your absolute favorite?
   * Given the chance to star in any movie, what will be the movie most likely be about?
   * Which song can cheer you up?
-  * Namely, the most underrated celebrity that you know of?
+  * Who is the most underrated celebrity?
   * Do you follow any family tradition that centers around movies, sports, or songs?
   * In this case, you have the chance to work with any celebrity that you want. Who would you choose?
   * What is the worst job ever done by a celebrity artist?
@@ -1101,7 +1101,7 @@
   * If there were no limits, which place would you want to spend the rest of your life?
   * Are you a dog person or a cat person?
   * You have 5 minutes to hide a paperclip in your home. A detective is hired to find it. But if he fails, you'll get 10,000 dollars as a reward. Where would you hide the paperclip?
-  * Namely, what is your favorite polite insult?
+  * What is your favorite polite insult?
   * Your go-to icebreaker question during awkward silences?
   * You get to spend one year on a deserted island with any cartoon character. That cartoon character is your only chance at survival. However, after the year is over, that character would try to kill you. Which cartoon character would you choose?
   * Which everyday office task, if turned into an Olympics sport, would you fail in miserably?
