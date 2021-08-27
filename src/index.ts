@@ -66,6 +66,19 @@ const createUI = (
     displayQuestion(questions[index]);
   });
 
+  const themes = ["default-theme", "bland-theme"]
+
+  const changeThemeButton = document.querySelector("#change-theme-button") as HTMLButtonElement;
+  changeThemeButton.addEventListener("click", () => {
+    const html = document.querySelector("html")
+    const currentTheme = html.classList[0]
+    const currentThemeIndex = themes.indexOf(currentTheme)
+    const nextThemeIndex = currentThemeIndex === -1 ? 0 : (currentThemeIndex + 1) % themes.length
+    const nextTheme = themes[nextThemeIndex]
+    html.classList.forEach( theme => html.classList.remove(theme))
+    html.classList.add(nextTheme)
+  })
+
   window.onpopstate = () => {
     const i = window.history.state;
     displayQuestion(questions[i]);
