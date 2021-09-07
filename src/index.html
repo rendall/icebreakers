@@ -7,16 +7,28 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
 
+    .mint-theme:root {
+      --main-bg-color: #B8DBD9;
+      --main-text-color: #2F4550;
+      --highlight-color: #586F7C;
+    }
+
     .default-theme:root {
       --main-bg-color: #2B50AA;
       --main-text-color: #FF9FE5;
       --highlight-color: #FF9FE5;
     }
 
-    .bland-theme:root {
-      --main-bg-color: #E3E7AF;
-      --main-text-color: #035E7B;
-      --highlight-color: #035E7B;
+    .ghost-theme:root {
+      --main-bg-color: #000;
+      --main-text-color: #F4F4F9;
+      --highlight-color: #F4F4F9;
+    }
+
+    .black-white-theme:root {
+      --main-bg-color: #F4F4F9;
+      --main-text-color: #000;
+      --highlight-color: #000;
     }
 
     body {
@@ -146,9 +158,9 @@
           <a href="https://rendall.github.io/icebreakers">rendall.github.io/icebreakers</a>
         </li>
       </ul>
-      <button id="change-theme-button" title="Change color theme" aria-label="Change color theme"><svg xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64"
-          enable-background="new 0 0 64 64" xml:space="preserve">
+      <button id="change-theme-button" title="Change color theme" aria-label="Change color theme"><svg
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
+          viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
           <g>
             <path
               d="M32,61c-7.8,0-15.2-3.1-20.7-8.7c-5.5-5.6-8.5-13-8.3-20.8C3.2,16.5,15.2,4,30.2,3.1c10.8-0.7,20.7,4.5,26.4,13.5   c0.6,0.9,0.6,2,0.1,3c-0.6,1.1-1.8,1.7-3.1,1.5C53,21,52.5,21,52,21c-5.9,0-10.8,4.8-11,10.6c-0.1,3,1,5.9,3.1,8   C46.2,41.8,49,43,52,43c0.5,0,1,0,1.5-0.1c1.3-0.2,2.5,0.4,3.1,1.5c0.5,1,0.5,2.1-0.1,3C51.2,55.9,42,61,32,61z M32,5   c-0.6,0-1.1,0-1.7,0.1C16.3,5.9,5.2,17.6,5,31.6c-0.1,7.3,2.6,14.2,7.8,19.4C17.9,56.1,24.7,59,32,59c9.3,0,17.9-4.7,22.8-12.6   c0.3-0.4,0.1-0.8,0-1c-0.2-0.3-0.6-0.6-1.1-0.5C53.2,45,52.6,45,52,45c-3.6,0-6.9-1.4-9.3-4c-2.5-2.6-3.8-5.9-3.6-9.5   c0.2-6.9,6-12.5,12.9-12.6l0.1,0c0.6,0,1.2,0,1.8,0.1c0.5,0.1,0.9-0.2,1.1-0.5c0.1-0.2,0.2-0.5,0-0.9C49.9,9.7,41.3,5,32,5z" />
