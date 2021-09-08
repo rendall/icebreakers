@@ -1,3 +1,5 @@
+import "./style.css";
+
 type Credit = { name: string; href: string };
 type Question = { question: string; credit: Credit };
 
