@@ -57,6 +57,10 @@ npm run build
 npm run serve
 ```
 
+## Credits
+
+* Favicon: [_Ice_ by Landan Lloyd](https://thenounproject.com/term/ice/1412640/)
+
 ## License
 
 The code comes under the [MIT License](./LICENSE.md) but the questions are owned by their respective copyright owners.
