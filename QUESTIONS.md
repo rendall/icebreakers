@@ -311,7 +311,6 @@
   * Are you sunrise, daylight, twilight, or nighttime? Why?
   * As a child, what did you want to be when you grew up?
   * Be honest, how often do you work from bed?
-  * Besides graduating, what is your number one goal for your remaining time at college?
   * Best book you’ve ever read?
   * Best professional development book you’ve ever read?
   * Coffee or tea?
@@ -413,7 +412,6 @@
   * What is the strangest habit you have?
   * What is your absolute dream job?
   * What is your best idea for a new invention?
-  * What is your best study tip?
   * What is your cellphone wallpaper?
   * What is your favorite TV show?
   * What is your favorite breakfast food?
@@ -429,7 +427,6 @@
   * What is your favorite time of the day and why?
   * What is your most used emoji?
   * What languages do you know how to speak?
-  * What most surprised you when you first arrived on campus or first started classes at your school?
   * What movie do you think everyone should watch?
   * What school subject is your favorite?
   * What school subject is your least favorite?
@@ -616,7 +613,7 @@
   * What would it take to give up your smartphone for a month?
   * Where is your favorite vacation spot?
   * Which are better, cookies or brownies?
-  * Which class do you wish the school offered?
+  * Which class do you wish your school offered?
   * Which class is your favorite?
   * Which fictional team is the best team of all time?
   * Which holiday song is your favorite?
@@ -1739,7 +1736,6 @@
   * What's the worst haircut you've ever gotten?
   * What's the worst idea you've ever had?
   * What's the worst movie you've ever seen?
-  * What's your best study tip?
   * What's your best travel story?
   * What's your biggest guilty pleasure?
   * What's your biggest pet peeve?
@@ -2056,7 +2052,6 @@
   * Have you ever been mistaken for someone famous?
   * How can team members learn more about each other?
   * How did you do on the office trivia contest last week?
-  * How did you meet your friends here at college?
   * How do you break awkward silences?
   * How do you feel love from someone else?
   * How do you keep yourself from being bored?
@@ -2116,14 +2111,13 @@
   * If you were thinking about someone, would you text them or call them on the phone?
   * In a group setting, would you describe yourself as an introvert or as an extrovert?
   * In a zombie apocalypse, how would you survive?
-  * Is there any TV show that you've binge-watched while studying?
+  * Is there any TV show that you've binge-watched while studying or working?
   * Is there anything hard about working virtually?
   * Kobe Bryant or Michael Jordan, who would you pick? Who would you want on your team?
   * Let's presume you're living in the forest. And had to eat leaves or bark, which would you choose?
   * Let's say you could be immortal. At what age would you decide that you've had enough life?
   * Let's say you had to decide between being broke or being unhappy, which would you choose?
-  * Name an imaginary college course that you wish existed here.
-  * Name your favorite snack to eat while studying.
+  * Name your favorite snack to eat while studying or working.
   * Pick one, losing your voice, or losing your sight.
   * Say you had an unlimited supply of one thing. What would it be?
   * Share with me a hope or dream that you have.
@@ -2144,7 +2138,7 @@
   * What Disney character would you be, and why?
   * What album would you listen to on repeat?
   * What are two truths and one lie about yourself?
-  * What are your plans after you finish college?
+  * What were (or are) your plans after you finish college?
   * What business idea do you think we could pursue together?
   * What characteristic would you like our children to have?
   * What class are you having the least trouble with?
@@ -2191,8 +2185,6 @@
   * What would be the most surprising scientific discovery imaginable?
   * What would managers help bring their teams in terms of organization and project management?
   * What would you name an imaginary friend?
-  * What're you hoping to achieve from this gathering of college students?
-  * What're you planning to study when you attend a university or go to college?
   * What's a New Year's resolution that you had this year?
   * What's an unusual skill that someone wouldn't know you had?
   * What's one career you wish you could have had?
@@ -2231,7 +2223,6 @@
   * What's the worst job interview you've ever had?
   * What's your best study tip?
   * What's your biggest pet peeve around the house?
-  * What's your college major?
   * What's your favorite breakfast food? And lunch food?
   * What's your favorite childhood memory?
   * What's your favorite class, and why?
@@ -2287,7 +2278,7 @@
   * You are torn between breaking up with your spouse or having cancer, which would you choose?
 * Credit: [Parade](https://parade.com/1211364/marynliles/icebreaker-questions/)
   * A free round-trip shuttle to Mars is available. The catch is that it will take a year of your life to travel, meet, and return. Are you up for it?
-  * Are you currently reading anything interesting right now?
+  * Are you reading anything interesting right now?
   * As a kid, what was your least favorite food? Is it something you still despise or something you now adore?
   * Can you describe your city in three words?
   * Can you say a personal fact no one would ever guess about you?
@@ -2414,7 +2405,6 @@
   * What is your favorite local restaurant, and what is your favorite meal to order there?
   * What is your favorite theme park ride?
   * What is your most favorite Thanksgiving food?
-  * What is your top priority for the remaining time of your college years, apart from graduating?
   * What kid character from Willy Wonka and the Chocolate Factory will you be?
   * What kind of clothing material do you like and why?
   * What kind of food do you find really disgusting?
