@@ -6,6 +6,12 @@
   --highlight-color: #999;
 }
 
+.sky-theme:root {
+  --main-bg-color: #DCEDFF;
+  --main-text-color: #0E6CC9;
+  --highlight-color: #0E6CC9;
+}
+
 .mint-theme:root {
   --main-bg-color: #b8dbd9;
   --main-text-color: #2f4550;

@@ -14,8 +14,9 @@ const parseCredit = (line: string) => {
 const themes = [
   "default-theme",
   "mint-theme",
-  "ghost-theme",
   "black-white-theme",
+  "ghost-theme",
+  "sky-theme"
 ];
 
 const setTheme = (nextTheme: string) => {
