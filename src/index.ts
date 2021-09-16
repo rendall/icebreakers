@@ -16,7 +16,8 @@ const themes = [
   "mint-theme",
   "black-white-theme",
   "ghost-theme",
-  "sky-theme"
+  "sky-theme",
+  "amaranth-yellow-theme"
 ];
 
 const setTheme = (nextTheme: string) => {
