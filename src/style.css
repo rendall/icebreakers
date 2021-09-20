@@ -36,6 +36,12 @@
   --highlight-color: #000;
 }
 
+.amaranth-yellow-theme:root {
+  --main-bg-color: #FFFC31;
+  --main-text-color: #AB2346;
+  --highlight-color: #AB2346;
+}
+
 body {
   background: var(--main-bg-color);
   color: var(--main-text-color);
