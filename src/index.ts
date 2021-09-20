@@ -2,6 +2,7 @@ import "./style.css";
 
 type Credit = { name: string; href: string };
 type Question = { question: string; credit: Credit };
+// Note that Question contains Credit
 
 const removeListMarkdown = (line: string) =>
   line.slice(line.indexOf("*") + 1).trim();
@@ -30,13 +31,15 @@ const setTheme = (nextTheme: string) => {
 const loadQuestions = () =>
   fetch("./QUESTIONS.md").then((response) => response.text());
 
+/** Accepts QUESTIONS.md text and returns an array of
+ * { question, credit } objects */
 const parseQuestions = (questionsFile: string): Question[] => {
   const lines = questionsFile
     .split("\n")
     .filter((line) => line.match(/^\s*\*/))
     .map(removeListMarkdown);
 
-  const parsedLines: [Credit, Question[]] = lines.reduce<[Credit, Question[]]>(
+    const parsedLines: [Credit, Question[]] = lines.reduce<[Credit, Question[]]>(
     ([credit, questions]: [Credit, Question[]], line: string) => {
       if (line.startsWith("Credit:")) {
         const newCredit = parseCredit(line);
@@ -45,16 +48,19 @@ const parseQuestions = (questionsFile: string): Question[] => {
     },
     [{ name: "", href: "" }, []]
   );
+  // The 0 index of the [Credit, Question[]] tuple is a helper value
+  // to be discarded after the questions array is created
+  const [_, questions] = parsedLines;
 
-  return parsedLines[1];
+  return questions;
 };
 
-const randSort = () => Math.floor(Math.random() * 2) - 1;
+const shuffleSort = () => Math.floor(Math.random() * 2) - 1;
 
-const shuffleQuestions = (questions: Question[]) => questions.sort(randSort);
+const shuffleQuestions = (questions: Question[]) => questions.sort(shuffleSort);
 
-const createUI = (
-  questions: { question: string; credit: { name: string; href: string } }[]
+const setupUI = (
+  questions: Question[]
 ) => {
   let index = 0;
 
@@ -76,6 +82,7 @@ const createUI = (
   const reloadButton = document.querySelector(
     "#reload-button"
   ) as HTMLButtonElement;
+
   reloadButton.addEventListener("click", () => {
     history.pushState(index, questions[index].question);
     index = (index + 1) % questions.length;
@@ -115,12 +122,11 @@ const init = () =>
     resolve();
   });
 
-// window.addEventListener("DOMContentLoaded", init);
 const onLoad = () =>
   init()
     .then(loadQuestions)
     .then(parseQuestions)
     .then(shuffleQuestions)
-    .then(createUI);
+    .then(setupUI);
 
 onLoad();
