@@ -21,10 +21,10 @@ Or, if you want to edit the questions, you can! Thank you for your help! This is
 The questions are all listed in the [QUESTIONS.md](./QUESTIONS.md) file. Add your questions to the bottom of the list, following the pattern, which is:
 
 ```markdown
-* Credit: [Name of creator](https://creators.website)
-  * This is the question?
-  * In a list?
-  * Underneath the Credit line?
+- Credit: [Name of creator](https://creators.website)
+  - This is the question?
+  - In a list?
+  - Underneath the Credit line?
 ```
 
 Or [file an issue](https://github.com/rendall/icebreakers/issues/new).
@@ -59,7 +59,8 @@ npm run serve
 
 ## Credits
 
-* Favicon: [_Ice_ by Landan Lloyd](https://thenounproject.com/term/ice/1412640/)
+- Favicon: [_Ice_ by Landan Lloyd](https://thenounproject.com/term/ice/1412640/)
+- Theme-changer button's palette icon: _[pallete by Wahyu Nurul Iman](https://thenounproject.com/term/pallete/2348307/)_
 
 ## License
 
