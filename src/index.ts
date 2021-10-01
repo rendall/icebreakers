@@ -122,13 +122,13 @@ const setupUI = (questions: Question[]) => {
   ) as HTMLButtonElement;
 
   reloadButton.addEventListener("click", () => {
-    history.pushState(index, questions[index].question);
+    window.history.pushState(index, questions[index].question);
     index = (index + 1) % questions.length;
     displayQuestion(questions[index]);
   });
 
   window.onpopstate = () => {
-    const i = window.history.state;
+    const i = window.history.state ?? 0;
     displayQuestion(questions[i]);
   };
 };
