@@ -28,8 +28,12 @@ const isTheme = (theme: Theme | string): theme is Theme => typeof theme !== "str
 
 const recoverTheme = () => {
   const themeStr = window.localStorage.getItem("theme") || "default-theme";
-  const theme: Theme | string = JSON.parse(themeStr);
-  return isTheme(theme) ? theme : defaultTheme;
+  try {
+    const theme: Theme | string = JSON.parse(themeStr);
+    return isTheme(theme) ? theme : defaultTheme;
+  } catch (error) {
+    return defaultTheme;
+  }
 };
 
 const getCurrentTheme = () => ({
@@ -86,8 +90,8 @@ const parseQuestions = (questionsFile: string): Question[] => {
     },
     [{ name: "", href: "" }, []]
   );
-  // The 0 index of the [Credit, Question[]] tuple is a helper value
-  // to be discarded after the questions array is created
+  // Index 0 of the tuple [Credit, Question[]] is a helper value
+  // to be discarded after the questions array is created:
   const [_, questions] = parsedLines;
 
   return questions;
