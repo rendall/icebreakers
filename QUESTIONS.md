@@ -1808,9 +1808,9 @@
   * Imitate your own professional meeting voice.
   * In one word, what is the greatest challenge you have faced this month?
   * I’m a little confused. Can you tell me the meaning of life?
-  * I’m really interested in ****\_\_\_\_****. Do you think that’s something I could pursue at this company?
+  * I’m really interested in ____________. Do you think that’s something I could pursue at this company?
   * I’m sorry, I fidget when I’m nervous. What’s your tell?
-  * My secret passion is ******\_\_******. What’s yours?
+  * My secret passion is ______________. What’s yours?
   * So how many people have you interviewed today?
   * So what did you like about my resume?
   * Sometimes I pretend to know how to [insert skill.] Do you ever do that?
@@ -1892,7 +1892,7 @@
   * Will you tell us a story about something you’re wearing?
   * Would you be able to draw my potential career path if I asked you?
   * Would you be willing to fight in one of the past wars?
-  * Would you be willing to tell me how you ****\_\_\_\_**** ?
+  * Would you be willing to tell me how you ____________ ?
   * Would you rather be a tiger or a hummingbird?
   * Would you rather be an Olympic gold medalist or an astronaut?
   * You’re forming a team of treasure hunters. Which job do you assign to everyone in the room?
@@ -2538,7 +2538,7 @@
   * Do you believe in luck?
   * Do you collect anything?
   * Do you have a picture on your desktop? What is it?
-   Do you have any strange or regional names for things where you come from?
+  * Do you have any strange or regional names for things where you come from?
   * Do you like to keep background noise on or do you work in silence?
   * Do you love or hate surprises?
   * Friends or Seinfeld?
@@ -2797,4 +2797,3 @@
   * Who would you be in a parallel universe?
   * You best time of the day is what? Morning, afternoon, evening or night?
   * Your favorite film genre is what?
-
