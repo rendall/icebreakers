@@ -88,7 +88,7 @@
   * If you had an entrance song play every time you entered a room, what would it be?
   * If you had to be transformed into one household item, what would it be and why?
   * If you had to be transformed into one household item, what would it be and why?
-  * If you had to choose only one holiday to celebrate each year, which would it be any whyu?
+  * If you had to choose only one holiday to celebrate each year, which would it be and why?
   * If you had to eat a crayon, what color would you choose? Why?
   * If you had to eat one meal every day for the rest of your life what would it be and why?
   * If you had to give up one food forever, what would it be?
@@ -194,7 +194,7 @@
   * What’s the craziest thing you have ever done?
   * What’s the greatest TV show ever made?
   * What’s the last thing you got in “trouble” for?
-  * What’s the most bingeable show you’ve ever watched?
+  * What’s the most binge-able show you’ve ever watched?
   * What’s the most embarrassing thing you ever accidentally messaged to somebody?
   * What’s the most recent movie you’ve seen, both at home and in theaters? Would you recommend them?
   * What’s the scariest movie you’ve ever seen? Funniest? Saddest?
@@ -208,7 +208,7 @@
   * What’s your favorite Disney movie?
   * What’s your favorite TV show and why?
   * What’s your favorite animated movie?
-  * What’s your favorite boardgame?
+  * What’s your favorite board game?
   * What’s your favorite childhood holiday tradition?
   * What’s your favorite childhood memory?
   * What’s your favorite hobby right now? What’s a hobby you’ve always wanted to take up?
@@ -301,7 +301,7 @@
   * Would you show everyone in this meeting your browser history?
   * You have your own late-night talk show. Who do you invite as your first guest?
   * You’re going sail around the world. What’s the name of your boat?
-* Credit:  [Museum Hack](https://museumhack.com/list-icebreakers-questions/)
+* Credit: [Museum Hack](https://museumhack.com/list-icebreakers-questions/)
   * 60s, 70s, 80s, 90s: Which decade do you love the most and why?
   * Are you a cat person or a dog person?
   * Are you a good dancer?
@@ -473,7 +473,7 @@
   * Would you rather always be slightly late or super early?
   * Would you rather be a superhero or the world’s best chef?
   * Would you rather be able to run at 100 miles per hour or fly at 10 miles per hour?
-  * Would you rather be an Olympic gold medallist or an astronaut?
+  * Would you rather be an Olympic gold medalist or an astronaut?
   * Would you rather be the funniest or smartest person in the room?
   * Would you rather explore outer space or the bottom of the ocean?
   * Would you rather give up your smartphone or your computer?
@@ -489,7 +489,7 @@
   * You have to sing karaoke, what song do you pick?
   * You have your own late night talk show, who do you invite as your first guest?
   * You’re going sail around the world, what’s the name of your boat?
-* Credit:  [teambuilding](https://teambuilding.com/blog/icebreaker-questions)
+* Credit: [teambuilding](https://teambuilding.com/blog/icebreaker-questions)
   * Are you more productive in the morning or at night?
   * Can lone wolves be part of a team?
   * Choose one famous person from history you want on your team during a zombie apocalypse.
@@ -539,7 +539,7 @@
   * What did you want to be when you grew up?
   * What did you want to be when you grew up?
   * What do you call your grandparents?
-  * What do you miss about kindgergarten?
+  * What do you miss about kindergarten?
   * What do you usually eat for lunch?
   * What dog breed would you be?
   * What emoji best describes how you are feeling right now?
@@ -678,7 +678,7 @@
   * Do you prefer mornings or nights?
   * Do you prefer nights out or nights in?
   * Do you prefer summer or winter?
-  * Do you prefer sweet or savoury?
+  * Do you prefer sweet or savory?
   * Do you prefer the pool or the beach?
   * Do you prefer to dress smart or casual?
   * Have you ever been bungee jumping?
@@ -688,7 +688,7 @@
   * If you could audition for a talent TV show, what song would you pick and why?
   * If you could be a kitchen appliance, what one would you be and why?
   * If you could be anywhere in the world right now, where would you be?
-  * If you could be in the Guiness book of world records, what record-breaking feat would you attempt?
+  * If you could be in the Guinness book of world records, what record-breaking feat would you attempt?
   * If you could give a piece of advice to your younger self, what would it be?
   * If you could have an endless supply of food, what would it be?
   * If you could have an extra hour of free time everyday, how would you use it?
@@ -720,7 +720,7 @@
   * What is the worst pick up line you’ve ever heard?
   * What is the worst trouble you go into as a kid?
   * What is your dream job?
-  * What is your favourite strange food combinations?
+  * What is your favorite strange food combinations?
   * What is your goal by the end of the decade?
   * What is your worst personality characteristic?
   * What kind of reality show would you appear in?
@@ -731,7 +731,7 @@
   * What was the worst job you've ever had?
   * What was your favorite subject in high school?
   * What was your first job?
-  * What was your last song on your spotify?
+  * What was your last song on your Spotify / streaming music service?
   * What would you do if you have all the money in the world?
   * What would you do if you knew you could not fail?
   * What would your entrance theme song be?
@@ -739,11 +739,11 @@
   * What's your current cellphone wallpaper?
   * What's your favorite breakfast cereal or breakfast food?
   * What's your favorite family tradition?
-  * What's your favourite ride at a theme park?
+  * What's your favorite ride at a theme park?
   * What's your go-to dance move?
   * What's your middle name?
   * What’s your favorite place?
-  * What’s your favourite hobby?
+  * What’s your favorite hobby?
   * When was the last time you did something for the first time?
   * When you were a child, what was your biggest dream?
   * When you were six years old, what did you want to be when you grow up?
@@ -759,7 +759,7 @@
   * Would you prefer to always be slightly late or always be an hour early?
   * Would you rather always be cold or always be hot?
   * Would you rather be able to run at 100 miles per hour or fly at 10 miles per hour?
-  * Would you rather be an olympic gold medalist or an astronaut?
+  * Would you rather be an Olympic gold medalist or an astronaut?
   * Would you rather be funny or clever?
   * Would you rather fart or burp glitter?
   * Would you rather have invisibility or flight?
@@ -810,7 +810,7 @@
   * If you could teleport anywhere in the world, where would you go right now?
   * If you did not have to sleep, how would you spend the extra 8 hours?
   * If you had a magic button on your desk to bring you whatever you wanted, what would it summon?
-  * If you had a time machine, would you go back in time to meet your ancestors, or forward in time to meet your descendents?
+  * If you had a time machine, would you go back in time to meet your ancestors, or forward in time to meet your descendants?
   * If you had to describe how you’re feeling right now as a weather pattern, what’s your forecast?
   * If you had to describe how you’re feeling right now as an amusement park ride, what ride are you on?
   * If you had to eat only one dish for the rest of time, what would it be?
@@ -859,8 +859,7 @@
   * What fruit or vegetable represents your mood today?
   * What healthy food tastes just as good to you as unhealthy food?
   * What help could you most use that you haven’t asked for?
-  * What ice cream flavour sums up your personality today?
-  * What ice cream flavour sums up your personality today?
+  * What ice cream flavor sums up your personality today?
   * What is a lesson you feel you learned too late in life?
   * What is one thing we would never guess about you?
   * What is the most used emoji on your phone right now?
@@ -1495,7 +1494,7 @@
   * What could movie theaters do to improve the experience of going there?
   * What crossed way too far into the uncanny valley for you?
   * What culture would you like to learn more about?
-  * What did your teachers and parents say would be really important when you grew up, but it hasn’t been? 
+  * What did your teachers and parents say would be really important when you grew up, but it hasn’t been?
   * What do you buy way more of than most people?
   * What do you do to unwind after a hard day?
   * What do you geek out about?
@@ -1809,9 +1808,9 @@
   * Imitate your own professional meeting voice.
   * In one word, what is the greatest challenge you have faced this month?
   * I’m a little confused. Can you tell me the meaning of life?
-  * I’m really interested in ____________. Do you think that’s something I could pursue at this company?
+  * I’m really interested in ****\_\_\_\_****. Do you think that’s something I could pursue at this company?
   * I’m sorry, I fidget when I’m nervous. What’s your tell?
-  * My secret passion is ______________. What’s yours?
+  * My secret passion is ******\_\_******. What’s yours?
   * So how many people have you interviewed today?
   * So what did you like about my resume?
   * Sometimes I pretend to know how to [insert skill.] Do you ever do that?
@@ -1863,11 +1862,11 @@
   * What would the CEO ask me if they were here right now?
   * What would the world be like if we didn’t have cars?
   * What would you choose as your top 5 songs of all time?
-  * What would your historical nickname be? (Think: Ivan the Terrible, William the Conqueror, Alfred the Great.) 
+  * What would your historical nickname be? (Think: Ivan the Terrible, William the Conqueror, Alfred the Great.)
   * What would your name be if your first name was your father’s middle name and your last name was your childhood favorite food?
   * What would your superhero costume look like?
   * What’s been the highlight of your day so far?
-  * What’s one question you would ask  if you were me?
+  * What’s one question you would ask if you were me?
   * What’s something that always confuses you about the work we do here?
   * What’s something you wish you could stop people from assuming about you?
   * What’s something you would change if you ran the world?
@@ -1893,9 +1892,9 @@
   * Will you tell us a story about something you’re wearing?
   * Would you be able to draw my potential career path if I asked you?
   * Would you be willing to fight in one of the past wars?
-  * Would you be willing to tell me how you ____________ ?
+  * Would you be willing to tell me how you ****\_\_\_\_**** ?
   * Would you rather be a tiger or a hummingbird?
-  * Would you rather be an Olympic gold medallist or an astronaut?
+  * Would you rather be an Olympic gold medalist or an astronaut?
   * You’re forming a team of treasure hunters. Which job do you assign to everyone in the room?
   * something you’d like to talk about that no one has asked you about recently?
 * Credit: [6Q](https://inside.6q.io/fun-ice-breaker-questions/)
@@ -1953,8 +1952,8 @@
   * Teleportation or flying?
   * The zombie apocalypse is coming, who are three people you want on your team?
   * What are you reading right now?
-  * What are your three favourite drinks?
-  * What are your three favourite foods?
+  * What are your three favorite drinks?
+  * What are your three favorite foods?
   * What book did you read that changed your life the most?
   * What clothing item would make you walk out on a date if someone wore it?
   * What fictional world or place would you like to visit?
@@ -1962,11 +1961,11 @@
   * What is the meaning of your name?
   * What is your absolute dream job?
   * What is your favorite TV show?
-  * What is your favourite holiday and why?
-  * What is your favourite meal to cook and why?
-  * What is your favourite season of the year and why?
-  * What is your favourite sport to watch and why?
-  * What is your favourite time of the day and why?
+  * What is your favorite holiday and why?
+  * What is your favorite meal to cook and why?
+  * What is your favorite season of the year and why?
+  * What is your favorite sport to watch and why?
+  * What is your favorite time of the day and why?
   * What is your most used emoji?
   * What languages do you know how to speak?
   * What movie have you seen recently that you would recommend and why?
@@ -1984,11 +1983,11 @@
   * What’s the weirdest food you’ve ever eaten?
   * What’s your best scary story?
   * What’s your earliest memory?
-  * What’s your favourite breakfast cereal?
-  * What’s your favourite colour and how does that colour make you feel?
-  * What’s your favourite family tradition?
-  * What’s your favourite place of all the places you’ve travelled?
-  * What’s your favourite place you’ve ever visited?
+  * What’s your favorite breakfast cereal?
+  * What’s your favorite color and how does that color make you feel?
+  * What’s your favorite family tradition?
+  * What’s your favorite place of all the places you’ve travelled?
+  * What’s your favorite place you’ve ever visited?
   * Which actor would you want to play you in the movie about your life?
   * Which song can you listen to all day long?
   * Who had the most influence on you growing up?
@@ -2079,7 +2078,7 @@
   * If you could donate a million dollars to charity, which charity would you choose?
   * If you could eat one meal for the rest of your life, what would it be?
   * If you could eliminate one trait from yourself, what would it be?
-  * If you could go back in time, which historical figure would you k#ll?
+  * If you could go back in time, which historical figure would you kill?
   * If you could go on tour with any rock band, who would it be?
   * If you could have a conversation with any famous person, who would it be?
   * If you could have any pet in your dorm, what kind of pet would it be?
@@ -2539,7 +2538,7 @@
   * Do you believe in luck?
   * Do you collect anything?
   * Do you have a picture on your desktop? What is it?
-  * Do you have any strange or regional names for things where you come from?
+   Do you have any strange or regional names for things where you come from?
   * Do you like to keep background noise on or do you work in silence?
   * Do you love or hate surprises?
   * Friends or Seinfeld?
@@ -2798,3 +2797,4 @@
   * Who would you be in a parallel universe?
   * You best time of the day is what? Morning, afternoon, evening or night?
   * Your favorite film genre is what?
+
