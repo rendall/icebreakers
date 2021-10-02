@@ -10,7 +10,7 @@ type Theme = {
 };
 
 const removeListMarkdown = (line: string) =>
-  line.slice(line.indexOf("-") + 1).trim();
+  line.slice(line.indexOf("*") + 1).trim();
 
 const parseCredit = (line: string) => {
   const match = RegExp(/Credit:\s*\[(.*)\]\((.*)\)/gm).exec(line);
@@ -61,9 +61,9 @@ const loadQuestions = () => fetchFile("QUESTIONS.md");
 const parseThemes = (themesFile: string): Theme[] =>
   themesFile
     .split("\n")
-    .filter((line) => line.match(/^-/))
+    .filter((line) => line.match(/^\*/))
     .map((line) =>
-      new RegExp(/^- _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*)$/).exec(line)
+      new RegExp(/^\* _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*)$/).exec(line)
     )
     .map(([, name, background, foreground, highlight]) => ({
       name,
@@ -78,7 +78,7 @@ const getThemes = () => fetchFile("THEMES.md").then(parseThemes);
 const parseQuestions = (questionsFile: string): Question[] => {
   const lines = questionsFile
     .split("\n")
-    .filter((line) => line.match(/^\s*\-/))
+    .filter((line) => line.match(/^\s*\*/))
     .map(removeListMarkdown);
 
   const parsedLines: [Credit, Question[]] = lines.reduce<[Credit, Question[]]>(

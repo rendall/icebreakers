@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 describe("THEMES.md", () => {
   const themesFile = readFileSync("THEMES.md", "utf8");
-  const themes = themesFile.split("\n").filter((line) => line.startsWith("- "));
+  const themes = themesFile.split("\n").filter((line) => line.startsWith("* "));
 
   it("should exist", () => {
     expect(themesFile).toBeDefined();
@@ -10,7 +10,7 @@ describe("THEMES.md", () => {
   describe("should only contain properly formatted themes", () => {
     themes.forEach((theme) => {
       const themeExp = new RegExp(
-        /^- _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*)$/
+        /^\* _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*)$/
       ).exec(theme);
       const themeName = themeExp?.[1];
       it(`'${themeName}' should have a name`, () => {
