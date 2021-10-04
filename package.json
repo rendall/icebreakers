@@ -8,8 +8,8 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "prebuild": "rimraf index.html && rimraf main.js && markdownlint *.md",
     "serve": "http-server -a localhost",
-    "start": "webpack-dev-server --mode=development --open",
-    "start:prod": "webpack-dev-server --mode=production --open",
+    "start": "webpack serve --mode=development --open",
+    "start:prod": "webpack serve --mode=production --open",
     "test": "jest",
     "test:watch": "jest --watch",
     "watch": "webpack --watch"
@@ -34,7 +34,6 @@
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.3",
     "webpack": "^5.55.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-cli": "^4.8.0"
   }
 }
