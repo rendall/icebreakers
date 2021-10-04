@@ -10,6 +10,10 @@ Try it out: <https://rendall.github.io/icebreakers/>
 
 Icebreaker questions are conversation starters you can ask to get to know someone, or to know your team. Load the site and it will present one of the thousands of questions in [the list](./QUESTIONS.md). Push the _Pick another question_ button to pick another question. If you want to go back to a previous question, push your browser's back button.
 
+### Can I change the appearance of the site?
+
+Yes, click the icon on the bottom right that looks like a painter's palette. You can cycle through all of the available [themes](./THEMES.md)
+
 ### These questions are terrible!
 
 First, that's not even a question. But fair point. The questions are scraped from the web, and the quality is uneven. Go ahead and press that _pick another_ button.
@@ -37,9 +41,12 @@ Remove or edit the question in question in the [QUESTIONS.md](./QUESTIONS.md) fi
 
 First, that's not a question, but understood. Second, are you sure? You're credited, and it drives traffic to your page. But if you insist, there are many ways to contact me, but the easiest is to [file an issue](https://github.com/rendall/icebreakers/issues/new) and I'll take it down.
 
-### I'm a copyright owner. How would I go about adding my website?
+### I made a really neat color scheme for _Icebreakers_ and I'd like to share it with the world!
 
-No problem! [Fill out this form.](https://github.com/rendall/icebreakers/issues/new)
+Awesome! There are two ways, so whichever is easiest for you:
+
+1. Fork & PR on [THEMES.md](./THEMES.md)
+1. [File an issue](https://github.com/rendall/icebreakers/issues/new) with details.
 
 ### Are you interested in monetization opportunities?
 
@@ -60,7 +67,7 @@ npm run serve
 ## Credits
 
 - Favicon: [_Ice_ by Landan Lloyd](https://thenounproject.com/term/ice/1412640/)
-- Theme-changer button's palette icon: _[pallete by Wahyu Nurul Iman](https://thenounproject.com/term/pallete/2348307/)_
+- Theme-changer button's palette icon: [_pallete_ by Wahyu Nurul Iman](https://thenounproject.com/term/pallete/2348307/)
 
 ## License
 

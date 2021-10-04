@@ -1,50 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=block");
 
 :root {
-  --main-bg-color: #999;
-  --main-text-color: #999;
-  --highlight-color: #999;
-}
-
-.sky-theme:root {
-  --main-bg-color: #DCEDFF;
-  --main-text-color: #0E6CC9;
-  --highlight-color: #0E6CC9;
-}
-
-.mint-theme:root {
-  --main-bg-color: #b8dbd9;
-  --main-text-color: #2f4550;
-  --highlight-color: #586f7c;
-}
-
-.default-theme:root {
-  --main-bg-color: #2b50aa;
-  --main-text-color: #ff9fe5;
-  --highlight-color: #ff9fe5;
-}
-
-.ghost-theme:root {
-  --main-bg-color: #000;
-  --main-text-color: #f4f4f9;
-  --highlight-color: #f4f4f9;
-}
-
-.black-white-theme:root {
-  --main-bg-color: #f4f4f9;
-  --main-text-color: #000;
-  --highlight-color: #000;
-}
-
-.amaranth-yellow-theme:root {
-  --main-bg-color: #FFFC31;
-  --main-text-color: #AB2346;
-  --highlight-color: #AB2346;
+  --theme-background: #2B50AA;
+  --theme-foreground: #FF9FE5;
+  --theme-highlight: #FF9FE5;
 }
 
 body {
-  background: var(--main-bg-color);
-  color: var(--main-text-color);
+  background: var(--theme-background);
+  color: var(--theme-foreground);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
   flex-direction: column;
@@ -98,7 +62,7 @@ h2#question-display {
 }
 
 button#reload-button {
-  border: 1px solid var(--highlight-color);
+  border: 1px solid var(--theme-highlight);
   font-family: arial;
   font-size: 1.3rem;
   padding: 1.2rem 2rem;
@@ -114,16 +78,16 @@ button {
   border-radius: 2.2rem;
   appearance: none;
   background: transparent;
-  color: var(--highlight-color);
+  color: var(--theme-highlight);
   cursor: pointer;
-  fill: var(--highlight-color);
+  fill: var(--theme-highlight);
   transition: background-color 0.1s ease;
 }
 
 button:hover {
-  background-color: var(--highlight-color);
-  color: var(--main-bg-color);
-  fill: var(--main-bg-color);
+  background-color: var(--theme-highlight);
+  color: var(--theme-background);
+  fill: var(--theme-background);
 }
 
 ul {
@@ -137,7 +101,7 @@ li {
 }
 
 a {
-  color: var(--highlight-color);
+  color: var(--theme-highlight);
   text-decoration: none;
 }
 
@@ -146,5 +110,5 @@ a:hover {
 }
 
 a:visited {
-  color: var(--main-text-color);
+  color: var(--theme-foreground);
 }
