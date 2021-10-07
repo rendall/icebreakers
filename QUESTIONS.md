@@ -15,8 +15,9 @@
   * Did you ever have an imaginary friend? If so, what was its name?
   * Do you care about your astrological sign?
   * Do you collect anything?
-  * Do you eat rice with a spoon or a fork?
+  * Do you eat rice with a spoon, fork, chopsticks, or some other way?
   * Do you have a favorite song to listen to when you need your spirits lifted?
+  * Do you have any family traditions that you look forward to each year?
   * Do you have any hidden talents? What can you do?
   * Do you have any pets as in-house colleagues?
   * Do you have houseplants in your office?
@@ -127,7 +128,6 @@
   * Teleportation or flying?
   * Tell me an embarrassing story about yourself.
   * The zombie apocalypse is coming. Who are three people you want on your team?
-  * What Do you have any family traditions that you look forward to each year?
   * What TV shows have you been watching lately?
   * What album could you listen to over and over again and not get sick of?
   * What animal represents you?
