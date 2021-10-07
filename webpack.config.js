@@ -13,6 +13,9 @@ const config = {
   devServer: {
     open: true,
     host: "localhost",
+    static: {
+      directory: __dirname,
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
