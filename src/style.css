@@ -1,19 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=block");
 
 :root {
-  --theme-background: #2B50AA;
-  --theme-foreground: #FF9FE5;
-  --theme-highlight: #FF9FE5;
+  --theme-background: #2b50aa;
+  --theme-foreground: #ff9fe5;
+  --theme-highlight: #ff9fe5;
 }
 
 body {
   background: var(--theme-background);
   color: var(--theme-foreground);
+  display: flex;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
-  flex-direction: column;
-  display: flex;
+  margin: 0;
   min-height: 100vh;
+  min-width: 320px;
 }
 
 body.themed {
@@ -21,63 +23,60 @@ body.themed {
 }
 
 main {
+  align-items: center;
   display: flex;
   flex: 1;
-  align-items: center;
+  justify-content: center;
 }
 
 footer {
-  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+.footer-col-3 {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
 }
 
-footer > * {
-  align-items: flex-end;
+.footer-col-3 > ul {
   display: flex;
-  justify-content: center;
-  width: 24rem;
-}
-
-footer > *:first-child {
-  text-align: left;
-  justify-content: left;
-}
-
-footer > *:last-child {
-  text-align: right;
-  justify-content: right;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 h2#question-display {
-  font-size: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 80%;
+  font-display: swap;
   font-family: "Rammetto One", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-display: swap;
+  font-size: 1.9rem;
+  margin: 0 0.25rem;
+  text-align: center;
 }
 
 button#reload-button {
   border: 1px solid var(--theme-highlight);
   font-family: arial;
-  font-size: 1.3rem;
-  padding: 1.2rem 2rem;
+  font-size: 1rem;
+  margin: 0 auto 1rem auto;
+  max-width: 20rem;
+  padding: 1rem;
 }
 
 button#change-theme-button {
   border: none;
   margin-left: 1rem;
-  width: 4.4rem;
+  min-width: 4.4rem;
 }
 
 button {
-  border-radius: 2.2rem;
   appearance: none;
   background: transparent;
+  border-radius: 2.2rem;
   color: var(--theme-highlight);
   cursor: pointer;
   fill: var(--theme-highlight);
@@ -96,10 +95,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin-top: 1rem;
-}
-
 a {
   color: var(--theme-highlight);
   text-decoration: none;
@@ -110,5 +105,81 @@ a:hover {
 }
 
 a:visited {
-  color: var(--theme-foreground);
+  color: var(--theme-highlight);
+}
+
+@media (min-width: 600px) {
+  h2#question-display {
+    font-size: 3rem;
+    margin: auto;
+    max-width: 80%;
+  }
+
+  button#reload-button {
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  li {
+    margin-top: 1rem;
+  }
+
+  li:first-child {
+    margin-top: 0;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  footer > * {
+    width: 30%;
+  }
+
+  .footer-col-1 {
+    order: 1;
+  }
+
+  .footer-col-2 {
+    order: 2;
+  }
+
+  .footer-col-3 {
+    order: 3;
+    justify-content: flex-end;
+  }
+
+  .footer-col-3 > ul {
+    display: unset;
+    text-align: right;
+  }
+
+  button#reload-button {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2#question-display {
+    font-size: 4rem;
+  }
+
+  footer {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  button#reload-button {
+    font-size: 1.3rem;
+    padding: 1.2rem 2rem;
+    max-width: 24rem;
+  }
+  
 }
