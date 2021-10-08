@@ -7,6 +7,7 @@ type Theme = {
   foreground: string;
   background: string;
   highlight: string;
+  font: string;
 };
 
 const removeListMarkdown = (line: string) =>
@@ -21,16 +22,19 @@ const defaultTheme: Theme = {
   name: "Carnival",
   background: "#2B50AA",
   foreground: "#FF9FE5",
-  highlight: "#FF9FE5"
+  highlight: "#FF9FE5",
+  font: "\"Rammetto One\"",
 };
 
-const isTheme = (theme: Theme | string): theme is Theme => typeof theme !== "string" && "foreground" in theme;
+const isTheme = (theme: Theme | string): theme is Theme =>
+  typeof theme !== "string" && "foreground" in theme;
 
 const recoverTheme = () => {
   const themeStr = window.localStorage.getItem("theme") || "default-theme";
   try {
     const theme: Theme | string = JSON.parse(themeStr);
-    return isTheme(theme) ? theme : defaultTheme;
+    if (!isTheme(theme)) return defaultTheme;
+    return { ...defaultTheme, ...theme };
   } catch (error) {
     return defaultTheme;
   }
@@ -43,13 +47,31 @@ const getCurrentTheme = () => ({
     document.documentElement.style.getPropertyValue("--theme-background"),
   highlight:
     document.documentElement.style.getPropertyValue("--theme-highlight"),
+  font: document.documentElement.style.getPropertyValue("--theme-font"),
 });
+
+const loadFont = (font: string) => {
+  const fontName = font.replace(/\s/g, "+").replace(/\"/g, "");
+  const fontUrl = `https://fonts.googleapis.com/css?family=${fontName}&display=swap`;
+
+  const links = document.head.querySelectorAll("link");
+  const hasFontLink = Array.from(links).some((link) => link.href === fontUrl);
+
+  if (hasFontLink) return;
+
+  const link = document.createElement("link");
+  link.href = fontUrl;
+  link.rel = "stylesheet";
+  document.head.appendChild(link);
+}
 
 const setTheme = (theme: Theme) => {
   const root = document.documentElement;
   root.style.setProperty("--theme-foreground", theme.foreground);
   root.style.setProperty("--theme-background", theme.background);
   root.style.setProperty("--theme-highlight", theme.highlight);
+  root.style.setProperty("--theme-font", theme.font);
+  loadFont(theme.font);
   window.localStorage.setItem("theme", JSON.stringify(theme));
 };
 
@@ -63,13 +85,14 @@ const parseThemes = (themesFile: string): Theme[] =>
     .split("\n")
     .filter((line) => line.match(/^\*/))
     .map((line) =>
-      new RegExp(/^\* _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*)$/).exec(line)
+      new RegExp(/^\* _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*) _("?[\w \d]*"?)_$/).exec(line)
     )
-    .map(([, name, background, foreground, highlight]) => ({
+    .map(([, name, background, foreground, highlight, font]) => ({
       name,
       foreground,
       background,
       highlight,
+      font
     }));
 const getThemes = () => fetchFile("THEMES.md").then(parseThemes);
 
@@ -135,7 +158,6 @@ const setupUI = (questions: Question[]) => {
 
 const setupThemes = async () => {
   const themes = await getThemes();
-
   const changeThemeButton = document.querySelector(
     "#change-theme-button"
   ) as HTMLButtonElement;
@@ -148,7 +170,8 @@ const setupThemes = async () => {
       (theme) =>
         theme.background === currentTheme.background &&
         theme.foreground === currentTheme.foreground &&
-        theme.highlight === currentTheme.highlight
+        theme.highlight === currentTheme.highlight &&
+        theme.font === currentTheme.font
     );
     const nextThemeIndex =
       currentThemeIndex === -1 ? 0 : (currentThemeIndex + 1) % themes.length;
@@ -174,3 +197,5 @@ const onLoad = () =>
     .then(setupThemes);
 
 onLoad();
+
+
