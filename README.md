@@ -1,6 +1,6 @@
 # Icebreakers
 
-Welcome to Icebreakers, a collection of icebreaking questions from around the web.
+Welcome to _Icebreakers_, a collection of icebreaking questions from around the web.
 
 Try it out: <https://rendall.github.io/icebreakers/>
 
