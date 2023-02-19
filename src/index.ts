@@ -147,6 +147,7 @@ const setTheme = (theme: Theme) => {
   const display = document.querySelector("#question-display") as HTMLDivElement;
   display.style.fontSize = "";
   window.localStorage.setItem(LOCAL_STORE_THEME_KEY, JSON.stringify(theme));
+  console.info(`Theme ${theme.name}`)
 };
 
 const fetchFile = (url: string) =>
