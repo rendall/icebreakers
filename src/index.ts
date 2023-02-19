@@ -191,8 +191,14 @@ const parseQuestions = (questionsFile: string): Question[] => {
   return questions;
 };
 
-const shuffleSort = () => Math.floor(Math.random() * 2) - 1;
-const shuffleQuestions = (questions: Question[]) => questions.sort(shuffleSort);
+/** Shuffle the entire array to avoid repeating questions in the same session */
+const shuffleQuestions = (questions: Question[]) => {
+  return questions.reduce((shuffledQuestions, _, i) => {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+    return shuffledQuestions;
+  }, [...questions]);
+}
 
 const setupUI = (questions: Question[]) => {
   let index = 0;
