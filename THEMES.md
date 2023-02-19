@@ -14,7 +14,7 @@ The font name is any [Google Font](https://fonts.google.com/?category=Display) a
 
 Example: _Carnival_ below is formatted as `_Carnival_ #2B50AA #FF9FE5 #FF9FE5 _Rammetto One_`
 
-
+* _Light Subdued_ #FFF4E0 #361E12 #A19376 _Poppins_
 * _Carnival_ #2B50AA #FF9FE5 #FF9FE5 _Rammetto One_
 * _Amaranth Yellow_ #FFFC31 #AB2346 #AB2346 _Rammetto One_
 * _Sky_ #DCEDFF #0E6CC9 #0E6CC9 _Fredoka One_
