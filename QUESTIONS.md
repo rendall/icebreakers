@@ -2797,3 +2797,109 @@
   * Who would you be in a parallel universe?
   * You best time of the day is what? Morning, afternoon, evening or night?
   * Your favorite film genre is what?
+* Credit: [Chat GPT](https://chat.openai.com)
+  * If you could be any animal, what would you be, and why?
+  * If you could be any fictional character, who would it be?
+  * If you could go back in time and change one thing, what would it be?
+  * If you could have any accent, what would it be?
+  * If you could have any car in the world, what would it be?
+  * If you could have any hairstyle, what would it be?
+  * If you could have any job in the world, what would it be?
+  * If you could have any kitchen gadget, what would it be?
+  * If you could have any pet, what would it be?
+  * If you could have any superpower, what would it be?
+  * If you could have any talent, what would it be?
+  * If you could have dinner with any historical figure, who would it be?
+  * If you could live anywhere in the world, where would you live?
+  * If you could only eat one food for the rest of your life, what would it be?
+  * If you could switch lives with anyone for a day, who would it be?
+  * If you could travel anywhere in the world, where would you go?
+  * What is one thing on your bucket list that you haven't done yet?
+  * What is one thing you can't live without?
+  * What is one thing you've always wanted to learn?
+  * What is something that always calms you down?
+  * What is something that always makes you feel better when you're sad?
+  * What is something that always makes you happy?
+  * What is something that always makes you laugh?
+  * What is something you wish you could do more often?
+  * What is something you're grateful for?
+  * What is something you're looking forward to in the future?
+  * What is something you're looking forward to in the next five years?
+  * What is something you're looking forward to in the next year?
+  * What is something you're passionate about?
+  * What is something you're proud of?
+  * What is something you're really bad at?
+  * What is something you're really good at?
+  * What is something you've always wanted to do, but haven't had the chance?
+  * What is something you've always wanted to learn how to do, but haven't had the chance?
+  * What is something you've always wanted to learn, but haven't had the time for?
+  * What is something you've always wanted to tell someone, but haven't?
+  * What is something you've always wanted to try, but haven't yet?
+  * What is the best advice you would give to someone?
+  * What is the best gift you've ever given someone?
+  * What is the best gift you've ever received?
+  * What is the best movie you've ever seen?
+  * What is the best piece of advice you would give to your younger self?
+  * What is the best piece of advice you've ever received?
+  * What is the best thing about where you live?
+  * What is the best thing that has ever happened to you?
+  * What is the best thing you've ever eaten?
+  * What is the best trip you've ever taken?
+  * What is the best vacation you've ever taken?
+  * What is the best way to relax after a long day?
+  * What is the best way to spend a rainy day?
+  * What is the biggest challenge you've ever faced?
+  * What is the craziest thing you've ever done?
+  * What is the last book you read, and did you like it?
+  * What is the most adventurous thing you've ever done?
+  * What is the most embarrassing thing that has ever happened to you?
+  * What is the most important lesson you've learned in life?
+  * What is the most important thing in a relationship?
+  * What is the most important thing in your life?
+  * What is the most important thing you've ever done for someone else?
+  * What is the most important thing you've ever learned in school?
+  * What is the most important thing you've learned about yourself?
+  * What is the most important thing you've learned from a failure?
+  * What is the most important thing you've learned from a mentor?
+  * What is the most important thing you've learned from a mistake?
+  * What is the most important thing you've learned from a success?
+  * What is the most inspiring thing you've ever heard?
+  * What is the most interesting place you've ever visited?
+  * What is the most interesting thing about you?
+  * What is the most meaningful gift you've ever received?
+  * What is the most meaningful thing anyone has ever done for you?
+  * What is the most meaningful thing you've ever done?
+  * What is the most spontaneous thing you've ever done?
+  * What is the most valuable thing you own?
+  * What is your biggest accomplishment?
+  * What is your biggest fear?
+  * What is your biggest pet peeve?
+  * What is your favorite TV show, and why?
+  * What is your favorite animal, and why?
+  * What is your favorite book or movie, and why?
+  * What is your favorite childhood memory?
+  * What is your favorite color, and why?
+  * What is your favorite food, and why?
+  * What is your favorite hobby, and why?
+  * What is your favorite holiday, and why?
+  * What is your favorite place to go on vacation?
+  * What is your favorite restaurant, and why?
+  * What is your favorite season, and why?
+  * What is your favorite song, and why?
+  * What is your favorite sport, and why?
+  * What is your favorite thing about your job?
+  * What is your favorite thing about yourself?
+  * What is your favorite thing to do in the morning?
+  * What is your favorite thing to do in your free time?
+  * What is your favorite thing to do on a lazy day?
+  * What is your favorite thing to do on the weekends?
+  * What is your favorite thing to do outside?
+  * What is your favorite thing to do with friends?
+  * What is your favorite type of art, and why?
+  * What is your favorite type of cuisine, and why?
+  * What is your favorite type of music, and why?
+  * What is your favorite way to exercise?
+  * What is your favorite way to relax and unwind?
+  * What is your favorite way to spend a day off?
+  * What is your favorite way to spend time with family?
+  * What is your favorite way to stay active?
