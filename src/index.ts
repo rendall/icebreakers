@@ -10,6 +10,10 @@ type Theme = {
   font: string;
 };
 
+const LOCAL_STORE_QUESTIONS_KEY = "icebreaker-questions";
+const LOCAL_STORE_INDEX_KEY = "icebreaker-index";
+const LOCAL_STORE_THEME_KEY = "icebreaker-theme";
+
 const removeListMarkdown = (line: string) =>
   line.slice(line.indexOf("*") + 1).trim();
 
@@ -30,7 +34,8 @@ const isTheme = (theme: Theme | string): theme is Theme =>
   typeof theme !== "string" && "foreground" in theme;
 
 const recoverTheme = () => {
-  const themeStr = window.localStorage.getItem("theme") || "default-theme";
+  const themeStr =
+    window.localStorage.getItem(LOCAL_STORE_THEME_KEY) || "default-theme";
   try {
     const theme: Theme | string = JSON.parse(themeStr);
     if (!isTheme(theme)) return defaultTheme;
@@ -141,13 +146,19 @@ const setTheme = (theme: Theme) => {
   setFont(theme.font);
   const display = document.querySelector("#question-display") as HTMLDivElement;
   display.style.fontSize = "";
-  window.localStorage.setItem("theme", JSON.stringify(theme));
+  window.localStorage.setItem(LOCAL_STORE_THEME_KEY, JSON.stringify(theme));
 };
 
 const fetchFile = (url: string) =>
   fetch(url).then((response) => response.text());
 
-const loadQuestions = () => fetchFile("QUESTIONS.md");
+const loadQuestions = () =>
+  fetchFile("QUESTIONS.md").then((questionsFile) =>
+    questionsFile
+      .split("\n")
+      .filter((line) => line.match(/^\s*\*/))
+      .map(removeListMarkdown)
+  );
 
 const parseThemes = (themesFile: string): Theme[] =>
   themesFile
@@ -167,14 +178,9 @@ const parseThemes = (themesFile: string): Theme[] =>
     }));
 const getThemes = () => fetchFile("THEMES.md").then(parseThemes);
 
-/** Accepts QUESTIONS.md text and returns an array of
+/** Accepts lines of text from QUESTIONS.md and returns an array of
  * { question, credit } objects */
-const parseQuestions = (questionsFile: string): Question[] => {
-  const lines = questionsFile
-    .split("\n")
-    .filter((line) => line.match(/^\s*\*/))
-    .map(removeListMarkdown);
-
+const parseQuestions = (lines: string[]): Question[] => {
   const parsedLines: [Credit, Question[]] = lines.reduce<[Credit, Question[]]>(
     ([credit, questions]: [Credit, Question[]], line: string) => {
       if (line.startsWith("Credit:")) {
@@ -193,15 +199,34 @@ const parseQuestions = (questionsFile: string): Question[] => {
 
 /** Shuffle the entire array to avoid repeating questions in the same session */
 const shuffleQuestions = (questions: Question[]) => {
-  return questions.reduce((shuffledQuestions, _, i) => {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
-    return shuffledQuestions;
-  }, [...questions]);
-}
+  return questions.reduce(
+    (shuffledQuestions, _, i) => {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledQuestions[i], shuffledQuestions[j]] = [
+        shuffledQuestions[j],
+        shuffledQuestions[i],
+      ];
+      return shuffledQuestions;
+    },
+    [...questions]
+  );
+};
 
 const setupUI = (questions: Question[]) => {
-  let index = 0;
+  const localIndex = localStorage.getItem(LOCAL_STORE_INDEX_KEY) ?? "0";
+  let index = parseInt(localIndex);
+
+  // Advance the index by 1 if the user has navigated here
+  // but not if the user has reloaded the page.
+  const didNavigate =
+    (
+      performance?.getEntriesByType(
+        "navigation"
+      ) as PerformanceNavigationTiming[]
+    )?.[0]?.type === "navigate" ||
+    performance?.navigation?.type === performance?.navigation?.TYPE_NAVIGATE;
+
+  if (didNavigate && index > 0) index = index + 1;
 
   const displayQuestion = (question: Question) => {
     const questionDisplay = document.querySelector(
@@ -217,20 +242,23 @@ const setupUI = (questions: Question[]) => {
 
     fitDisplay();
   };
-  displayQuestion(questions[0]);
+
+  displayQuestion(questions[index]);
 
   const reloadButton = document.querySelector(
     "#reload-button"
   ) as HTMLButtonElement;
 
   reloadButton.addEventListener("click", () => {
-    window.history.pushState(index, questions[index].question);
     index = (index + 1) % questions.length;
+    localStorage.setItem(LOCAL_STORE_INDEX_KEY, index.toString());
+    window.history.pushState(index, questions[index].question);
     displayQuestion(questions[index]);
   });
 
   window.onpopstate = () => {
     const i = window.history.state ?? 0;
+    localStorage.setItem(LOCAL_STORE_INDEX_KEY, i.toString());
     displayQuestion(questions[i]);
   };
 };
@@ -267,11 +295,35 @@ const init = () =>
     resolve();
   });
 
+/** Return stored questions if they exist and are updated.
+ * Return loaded, parsed and shuffled questions if not.  */
+const interpretQuestions = (lines: string[]) => {
+  const localQuestions: string =
+    localStorage.getItem(LOCAL_STORE_QUESTIONS_KEY) ?? "[]";
+  const storedQuestions = JSON.parse(localQuestions);
+
+  const questionLines = lines.filter((line) => !line.startsWith("Credit: "));
+  const isStored = storedQuestions.length === questionLines.length;
+
+  if (isStored) return storedQuestions;
+
+  const parsed = parseQuestions(lines);
+  const shuffled = shuffleQuestions(parsed);
+
+  try {
+    localStorage.setItem(LOCAL_STORE_QUESTIONS_KEY, JSON.stringify(shuffled));
+    localStorage.setItem(LOCAL_STORE_INDEX_KEY, "0");
+  } catch (error) {
+    // do nothing
+  }
+
+  return shuffled;
+};
+
 const onLoad = () =>
   init()
     .then(loadQuestions)
-    .then(parseQuestions)
-    .then(shuffleQuestions)
+    .then(interpretQuestions)
     .then(setupUI)
     .then(setupThemes);
 
