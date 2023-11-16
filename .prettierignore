@@ -1,2 +1,5 @@
 QUESTIONS.md
 THEMES.md
+*.js
+/main.css
+/index.html
