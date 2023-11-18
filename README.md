@@ -64,6 +64,8 @@ npm run build
 npm run serve
 ```
 
+`npm run start` also works, using webpack's dev server and hot module reloading, but it may require a browser refresh or two
+
 ## Credits
 
 - Favicon: [_Ice_ by Landan Lloyd](https://thenounproject.com/term/ice/1412640/)

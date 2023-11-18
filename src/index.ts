@@ -1,4 +1,5 @@
 import "./style.css";
+import { toSlug } from "./utilities";
 
 type Credit = { name: string; href: string };
 type Question = { question: string; credit: Credit }; // Note that Question contains Credit
@@ -272,6 +273,14 @@ const setupUI = (questions: Question[]) => {
     ) as HTMLAnchorElement;
     creditLink.href = question.credit.href;
     creditLink.innerHTML = question.credit.name;
+
+    const postLink = document.querySelector(
+      "#post-link"
+    ) as HTMLAnchorElement;
+
+    const origin = postLink.dataset.origin;
+    const postHref = `${origin}/${toSlug(question.question)}`;
+    postLink.href = postHref;
 
     fitDisplay();
   };

@@ -8,7 +8,7 @@ describe("THEMES.md", () => {
     /^\* _([\w \d]*)_ ([\w#]*) ([\w#]*) ([\w#]*) _("?[\w \d]*"?)_$/
   );
   const hexColorRegExp = /^#[\dA-F]{3}$|^#[\dA-F]{6}$/i;
-  const getThemeName = (theme: string) => /\* _([\s\w\d]*)_/.exec(theme)[1];
+  const getThemeName = (theme: string) => /\* _([\s\w\d]*)_/.exec(theme)?.[1];
   const themeNames = themes.map(getThemeName);
 
   it("should exist", () => {
