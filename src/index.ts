@@ -81,14 +81,14 @@ export const debounceFunc = <T extends (...args: any[]) => void>(
  * the 'main' element */
 const fitDisplay = () => {
   const main = document.querySelector("main") as HTMLDivElement;
-  const { clientWidth } = main;
+  const { clientWidth, clientHeight } = main;
 
   // In any case, remove any inline font-size
   const display = document.querySelector("#question-display") as HTMLDivElement;
   display.style.fontSize = "";
 
   // Only for small display sizes
-  if (clientWidth >= 600) {
+  if (clientWidth >= 600 && clientHeight >= 600) {
     return;
   }
 
@@ -283,6 +283,8 @@ const setupUI = (questions: Question[]) => {
   ) as HTMLButtonElement;
 
   reloadButton.addEventListener("click", () => {
+    const isResizing = document.documentElement.classList.contains("font-resizing");
+    if (isResizing) return; // Repeated clicks will cause the font resize to be visible
     index = (index + 1) % questions.length;
     localStorage.setItem(LOCAL_STORE_INDEX_KEY, index.toString());
     window.history.pushState(index, questions[index].question);
