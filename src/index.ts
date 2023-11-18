@@ -45,6 +45,38 @@ const recoverTheme = () => {
   }
 };
 
+/**
+ * Creates a debounced function that delays invoking the provided
+ * function until after `wait` milliseconds have elapsed since the
+ * last time the debounced function was invoked. Typically used to
+ * run an expensive or async function after user interaction.
+ *
+ * @template T The type of the function to debounce.
+ * @param {T} func The function to debounce.
+ * @param {number} [wait=250] The number of milliseconds to delay.
+ * @returns {(...args: Parameters<T>) => void} Returns the new debounced function.
+ *
+ * @example
+ * // Usage with a function that takes one string parameter
+ * const logMessage = (message: string) =>  * const debouncedLogMessage = debounceFunc(logMessage, 300);
+ * debouncedLogMessage('Hello, world!');
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const debounceFunc = <T extends (...args: any[]) => void>(
+  func: T,
+  wait = 250
+) => {
+  let debounceTimeout: number | null = null
+  return (...args: Parameters<T>): void => {
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    window.clearTimeout(debounceTimeout!)
+    debounceTimeout = window.setTimeout(() => {
+      func(...args)
+    }, wait)
+  }
+}
+
+
 /** For small displays, iteratively expand the question display to fit
  * the 'main' element */
 const fitDisplay = () => {
@@ -292,7 +324,7 @@ const init = () =>
   new Promise<void>((resolve) => {
     const initTheme = recoverTheme();
     setTheme(initTheme);
-    window.addEventListener("resize", fitDisplay);
+    window.addEventListener("resize", debounceFunc( fitDisplay ));
     resolve();
   });
 
