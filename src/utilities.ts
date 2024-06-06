@@ -153,7 +153,7 @@ export const getCurrentTheme = () => ({
     document.documentElement.style.getPropertyValue("--theme-background"),
   highlight:
     document.documentElement.style.getPropertyValue("--theme-highlight"),
-  font: document.documentElement.style.getPropertyValue("--theme-font"),
+  font: document.documentElement.style.getPropertyValue("--theme-font").replace(/"/g, "")
 });
 
 export const hasFont = (font: string) =>
@@ -172,8 +172,11 @@ export const setFont = (font: string) => {
   const link = document.createElement("link");
   link.href = fontUrl;
   link.rel = "stylesheet";
+
+  // Wrap font name in quotes if it contains spaces
+  const themeFont = font.includes(" ") ? `"${font}"` : font;
   link.addEventListener("load", () => {
-    document.documentElement.style.setProperty("--theme-font", font);
+    document.documentElement.style.setProperty("--theme-font", themeFont);
     fitDisplay();
   });
   link.addEventListener("error", () => {
